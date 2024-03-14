@@ -1,9 +1,15 @@
 const SocialButton = () => {
   return (
-    <div className='iconos'>
-      <a href='https://facebook.com'><i class='fa-brands fa-facebook fa-2x' /></a>
-      <a href='https://github.com'><i class='fa-brands fa-github fa-2x' /></a>
-      <a href='https://linkedin.com'><i class='fa-brands fa-linkedin fa-2x' /></a>
+    <div className='iconos d-flex justify-content-evenly my-4'>
+      <button className='btn btn-outline-dark btn-lg'>
+        <i class='fa-brands fa-facebook fa-2x' />
+      </button>
+      <button className='btn btn-outline-dark btn-lg'>
+        <i class='fa-brands fa-github fa-2x' />
+      </button>
+      <button className='btn btn-outline-dark btn-lg'>
+        <i class='fa-brands fa-linkedin fa-2x' />
+      </button>
     </div>
   )
 }

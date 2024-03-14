@@ -4,29 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #e8d8ff;
-}
-
-.titulo {
-    display: block;
+    display: flex;
     justify-content: center;
     text-align: center;
-    padding: 15px;
 }
 
-.iconos {
-    display: flex;
-    justify-content: space-evenly;
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.fa-brands {
-    color: #000;
+.container {
+    text-align: center;
 }
